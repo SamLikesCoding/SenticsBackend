@@ -22,6 +22,8 @@
     "mercedlogger": "^1.0.1",
     "mongoose": "^6.8.4",
     "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^1.3.0",
     "nodemon": "^2.0.20"
   }
 }

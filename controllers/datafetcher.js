@@ -23,7 +23,7 @@ router.get("/getBodyParts", async (req, res) => {
             bodyparts.forEach(part => {
                 data.push(part);
             });
-            log.green("Fetch Request Status", "SUCESS");
+            log.green("Fetch Request Status", "SUCCESS");
             res.send(data);
         });
     } catch (err) {

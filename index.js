@@ -31,8 +31,11 @@ app.get('/', (req, res) => {
     }));
 });
 
-// Data Handler
+// Data Handlers
 app.use("/scanData", scanRouter);
+
+// Image Storage Handlers
+app.use("/imageStore", express.static('imageStore'));
 
 // The Run
 app.listen(PORT, () => {

@@ -11,6 +11,7 @@ const {log} = require('mercedlogger');
 
 // Database Path
 const {DB_URL} = process.env;
+var db = null;
 
 // Let's Connect to the Database
 manga.connect(DB_URL, {
@@ -34,4 +35,4 @@ manga.connection.on("error", (err) => {
 });
 
 // Let's Export 
-module.exports = manga;
+module.exports = manga
